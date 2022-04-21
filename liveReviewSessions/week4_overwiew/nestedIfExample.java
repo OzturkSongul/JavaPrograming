@@ -1,0 +1,21 @@
+package week4_overwiew;
+
+public class nestedIfExample {
+    public static void main(String[] args) {
+        boolean isRushHour= false;
+        int carType= 2;//1,2,3....6:motorcyles
+        double price=0.0;
+
+        if (carType==1){
+            if(isRushHour) {
+                price = 30.0;
+            } else {
+                price = 5.0;
+
+            }
+        }
+
+
+
+    }
+}
